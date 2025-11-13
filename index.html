@@ -32,6 +32,16 @@
             animation: fadeIn 0.8s ease-in;
         }
 
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+            border: 5px solid #f0f0f0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -71,6 +81,12 @@
                 padding: 40px 30px;
             }
 
+            .profile-image {
+                width: 150px;
+                height: 150px;
+                margin-bottom: 25px;
+            }
+
             h1 {
                 font-size: 2.5rem;
             }
@@ -83,12 +99,13 @@
 </head>
 <body>
     <div class="container">
+        <img src="images/profile.jpg" alt="서정연 프로필" class="profile-image">
         <h1>서정연</h1>
         <div class="divider"></div>
         <p class="welcome-text">
             반가워요!<br>
-            포트폴리오 웹사이트에 오신 것을 환영합니다 와아!
+            포트폴리오 웹사이트에 오신 것을 환영합니다
         </p>
     </div>
 </body>
-</html>
+</html>g
